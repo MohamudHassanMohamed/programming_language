@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-22 01:41:47 AM"/>
+        <attribute name="created" value="REVMTDtERVNLVE9QLTVLTjREMTI7MjAyMi0wNy0yMjswMToyMjozMyBBTTsyNTU0"/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLTVLTjREMTI7MjAyMi0wNy0yMjswMTo0MTo0NyBBTTsyOzI2Njk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="Take a ball"/>
+            <input variable="Go to the stadium"/>
+            <input variable="fellow with your friend"/>
+            <if expression="if your friend is absent">
+                <then>
+                    <output expression="Return back to the home" newline="True"/>
+                </then>
+                <else>
+                    <output expression="Take some Exercises" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
